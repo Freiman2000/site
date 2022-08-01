@@ -1,0 +1,1077 @@
+@font-face {
+    font-family: 'GothamBook';
+    src: url('../fonts/GothamBook.eot');
+    src: url('../fonts/GothamBook.eot') format('embedded-opentype'),
+         url('../fonts/GothamBook.woff2') format('woff2'),
+         url('../fonts/GothamBook.woff') format('woff'),
+         url('../fonts/GothamBook.ttf') format('truetype'),
+         url('../fonts/GothamBook.svg#GothamBook') format('svg');
+}
+@font-face {
+    font-family: 'GothamBold';
+    src: url('../fonts/GothamBold.eot');
+    src: url('../fonts/GothamBold.eot') format('embedded-opentype'),
+         url('../fonts/GothamBold.woff2') format('woff2'),
+         url('../fonts/GothamBold.woff') format('woff'),
+         url('../fonts/GothamBold.ttf') format('truetype'),
+         url('../fonts/GothamBold.svg#GothamBold') format('svg');
+}
+@font-face {
+    font-family: 'GothamLight';
+    src: url('../fonts/GothamLight.eot');
+    src: url('../fonts/GothamLight.eot') format('embedded-opentype'),
+         url('../fonts/GothamLight.woff2') format('woff2'),
+         url('../fonts/GothamLight.woff') format('woff'),
+         url('../fonts/GothamLight.ttf') format('truetype'),
+         url('../fonts/GothamLight.svg#GothamLight') format('svg');
+}
+body{
+	background-color: #e2e2e2 !important;
+	margin: 0;
+	padding: 0;
+}
+
+.arrowlist:after{
+	width: 0;
+    height: 0px;
+    border: 4px solid transparent;
+    border-bottom: none;
+    border-top-color: #8a8383;
+    content: '';
+    vertical-align: middle;
+    display: inline-block;
+    position: relative;
+    margin-left: 10px;
+}
+
+/* Top (main scrin) */
+
+.contenttop{
+	display: inline-block;
+	width: 100%;
+	background: black url(../img/top/bgtop.jpg) center top no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+
+/* navigation */
+.navigation {
+	margin-top: 50px;
+	background: #fff;
+	font-family: 'GothamBook', sans-serif;
+}
+.navigation a,.navigation p { 
+	display: inline-block;
+	margin-left: 5px;
+	font-size: 15px;
+	display: inline-block;
+	color: #2e343b;
+}
+.navigation .logo{
+	display: inline-block;
+	margin: 20px 100px 20px 20px;
+}
+.navigation .email {
+	display: inline-block;
+}
+.navigation .language{
+	display: inline-block;
+	margin-left: 30px;
+}
+.navigation .menulanguage{
+	max-width: 100px;
+}
+.navigation .dropdown-item:hover{
+	background: none;
+}
+.navigation .menulanguage img{
+	margin-right: 10px;
+	max-width: 20px;
+}
+
+/* main top menu */
+.menutwo{
+	display: flex;
+	height: 65px;
+	width:100%;
+	background: none;
+	border-top: 1px solid #f1f1f1;
+}
+.menu{
+	background: #fff;
+	font-family: 'GothamBold', sans-serif;
+	padding-left: 40px;
+}
+.menu ul{
+	list-style: none;
+}
+.menu > ul{
+	display: inline-flex;
+	margin: 0px;
+}
+.menu > ul li a{
+	display: block;
+	color: #2e343b;
+	background: #fff;
+	margin: 25px 40px 17px 0px;
+	font-size: 15px;
+	text-decoration: none;
+	outline: none;
+	transition: all 0.3s ease;
+}
+.menu li a:hover{
+	color: #596572;
+	transition: all 0.3s ease;
+}
+
+.menu li ul{
+	position: absolute;
+	padding: 0px;
+	background: #fff;
+	display: none;
+}
+.menu li >  ul li{
+	border: 1px solid #f1f1f1;
+}
+.menu li > ul li a{
+	padding: 10px;
+	text-transform: none;
+	background: #fff;
+	margin: auto;
+}
+.menu li:hover > ul{
+	display: block;
+}
+
+/* Text on main screen*/
+
+.toptext{
+	margin: 170px 0px 230px 20px;
+}
+
+.toptext h2{
+	color: #fff;
+	font-family: 'GothamBook', sans-serif;
+	font-size: 42px;
+}
+.toptext span{
+	display: block;
+	border: 2px solid #eb5635;
+	height: 2px;
+	max-width: 185px;
+	margin: 25px 0px 20px 0px;
+}
+.toptext .first{
+	color: #fff;
+	font-family: 'GothamBold', sans-serif;
+	font-size: 42px;
+}
+
+.toptext .second{
+	color: #afaca9;
+	font-family: 'GothamLight', sans-serif;
+	font-size: 18px;
+}
+.toptext a{
+	display: inline-block;
+	text-transform: uppercase;
+	border:none;
+	padding: 7px 30px;
+	border-radius: 30px;
+	font-family: 'GothamBold', sans-serif;
+	font-size: 15px;
+}
+.toptext .one{background: #eb5635; color: #fff; margin-right: 10px;}
+.toptext .two{background: #fff; color: #241c1f;}
+.toptext .one:hover{text-decoration: none;  box-shadow: 0 0 0 2px #2d251d, 0 0 0 4px #eb5635;}
+.toptext .two:hover{text-decoration: none;  box-shadow: 0 0 0 2px , 0 0 0 4px #fff;}
+
+/* highteded */
+.highteded{
+	display: inline-block;
+	width: 100%;
+	height: 600px;
+	background: black url(../img/bgHighteded.jpg) center top no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+.secondtext{
+	margin: 100px 0px 125px 0px;
+}
+
+.secondtext h2{
+	color: #686868;
+	font-family: 'GothamBook', sans-serif;
+	font-size: 42px;
+}
+.secondtext span{
+	display: block;
+	border: 2px solid #eb5635;
+	height: 2px;
+	max-width: 185px;
+	margin: 25px 0px 20px 0px;
+}
+.secondtext .first{
+	color: #4f4f4f;
+	font-family: 'GothamBold', sans-serif;
+	font-size: 42px;
+}
+
+.secondtext .second{
+	color: #c1c1c1;
+	font-family: 'GothamLight', sans-serif;
+	font-size: 18px;
+}
+.secondtext a{
+	display: inline-block;
+	text-transform: uppercase;
+	border:none;
+	padding: 7px 30px;
+	border-radius: 30px;
+	font-family: 'GothamBold', sans-serif;
+	font-size: 15px;
+}
+.secondtext .one{background: #eb5635; color: #fff; margin-right: 10px;}
+.secondtext .two{background: #fff; color: #241c1f;}
+.secondtext .one:hover{text-decoration: none;  box-shadow: 0 0 0 2px #e0e3e8, 0 0 0 4px #eb5635;}
+.secondtext .two:hover{text-decoration: none;  box-shadow: 0 0 0 2px #e0e3e8, 0 0 0 4px #eb5635;}
+
+/* 3 boxes */
+/* Dishonored */
+.dishonored {
+	position: absolute;
+	transform: translateY(-15%);
+ 	background: #fff;
+}
+.dishonored img {width:100%;}
+.dishonored h2{
+	color: #6a6a6a;
+	font-family: 'GothamLight', sans-serif;
+	font-size: 27px;
+	margin: 45px 0px 25px 45px;
+}
+.dishonored .text{
+	color: #c4c4c4;
+	font-family: 'GothamLight', sans-serif;
+	font-size: 16px;
+	margin: 0px 0px 30px 45px;
+}
+.dishonored .circle{
+	display: inline-block;
+	border: 2px solid #ee6d50;
+	border-radius: 50%;
+	width: 45px;
+	height: 45px;
+	color: #ee6d50;
+	text-align: center;
+	vertical-align: middle;
+}
+.dishonored .circle span{
+	position: absolute; 
+	transform: translate(-43% , 34%);
+	font-family: 'GothamBold', sans-serif;
+}
+.dishonored p{
+	margin-left: 12px;
+	display: inline-block;
+	color: #ee6d50 ;
+	font-family: 'GothamBook', sans-serif;
+	font-size: 18px;
+	max-width: 60%;
+}
+.dishonored .info{
+	margin:0px 0px 15px 45px;
+}
+.dishonored a{
+	display: inline-block;
+	text-transform: uppercase;
+	border:none;
+	padding: 7px 30px;
+	border-radius: 30px;
+	font-family: 'GothamBold', sans-serif;
+	font-size: 15px;
+	background: #eb5635; color: #fff; margin-right: 10px;
+	margin: 30px 0px 0px 40px;
+}
+.dishonored a:hover{color: #fff;text-decoration: none;  box-shadow: 0 0 0 2px #e0e3e8, 0 0 0 4px #eb5635;}
+
+/* drift */
+.drift {
+	margin:0px 15px;
+	position: absolute;
+	transform: translateY(-15%);
+ 	background: #fff;
+}
+.drift img {width:100%;}
+.drift h2{
+	color: #6a6a6a;
+	font-family: 'GothamLight', sans-serif;
+	font-size: 27px;
+	margin: 30px 0px 35px 30px;
+}
+.drift a{
+	display: inline-block;
+	text-transform: uppercase;
+	border:none;
+	padding: 7px 30px;
+	border-radius: 30px;
+	font-family: 'GothamBold', sans-serif;
+	font-size: 15px;
+	background: #eb5635; color: #fff; margin-right: 10px;
+	margin-left: 20px;
+}
+.drift a:hover{color: #fff;text-decoration: none;  box-shadow: 0 0 0 2px #e0e3e8, 0 0 0 4px #eb5635;}
+
+/* Battelfied */
+.battelfied {
+	width: 100%;
+	background: black url(../img/box/3.png) left no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+	display: inline-block;
+	position: absolute;
+	transform: translateY(-15%);	
+}
+.battelfied h2{	
+	color: #fff;
+	font-family: 'GothamLight', sans-serif;
+	font-size: 27px;
+	margin: 40px 0px 20px 40px;	
+}
+.battelfied span{
+	font-family: 'GothamBold', sans-serif;	
+}
+.battelfied p{
+	color: #dfdfdf;
+	font-family: 'GothamLight', sans-serif;
+	font-size: 16px;
+	margin: 40px 40px 75px 40px;	
+}
+.battelfied a{	
+	text-transform: uppercase;
+	border:3px solid #fff;
+	padding: 7px 30px;
+	border-radius: 30px;
+	font-family: 'GothamBold', sans-serif;
+	font-size: 15px;
+	color: #fff; 
+	margin-left: 40px;	
+}
+.battelfied a:hover{
+	color: black; 
+	text-decoration: none;
+	background-color: #fff;
+	box-shadow: 0 0 0 2px #3a3a38, 0 0 0 4px #fff;
+}
+
+/* Slaider */
+.workers .lable h2{
+	font-family: 'GothamBold', sans-serif;
+	font-size: 36px;
+}
+.workers .spanone{
+	display: block;
+	border: 2px solid #eb5635;
+	height: 2px;
+	max-width: 50px;
+	margin-top: 15px;
+}
+.workers .text  p{
+	font-family: 'GothamLight', sans-serif;
+	font-size: 15px;
+	color:#999;
+}
+.workers .text p span{
+	color: #eb5635;
+}
+.workers .text{
+	display: inline-block;
+	font-style: italic;
+}
+.workers .lable{
+	display: inline-block;
+}
+
+
+.bgcslik{	background-color: #fff; padding-top: 20px;}
+.slikslaider {
+	width: 80%;
+	margin: 10px auto;
+
+}
+
+.slikslaider .left{
+	font-size: 0;
+    line-height: 0;
+    position: absolute;
+    top: 25%;
+    display: block;
+    width: 65px;
+    height: 65px;
+    padding: 0;
+    -webkit-transform: translate(-100%, -25%);
+    -ms-transform: translate(-100%, -25%);
+    transform: translate(-100%, -25%);
+    cursor: pointer;
+    color: transparent;
+    border: none;
+    outline: none;
+    background: transparent;
+    left: -15px;
+}
+.slikslaider .right{
+	font-size: 0;
+    line-height: 0;
+    position: absolute;
+    top: 25%;
+    display: block;
+    width: 65px;
+    height: 65px;
+    padding: 0;
+    -webkit-transform: translate(100%, -25%);
+    -ms-transform: translate(100%, -25%);
+    transform: translate(100%, -25%);
+    cursor: pointer;
+    color: transparent;
+    border: none;
+    outline: none;
+    background: transparent;
+    right: -15px;
+}
+.slikslaider .myslaider .slick-current  img{
+	outline:5px solid #eb5635;
+	outline-offset:-4px;
+}
+.slikslaider .sliksname {
+	width: 500px;
+	text-align: center;
+	margin: 40px auto;
+}
+.slikslaider .sliksname p span{
+	font-family: 'GothamBold', sans-serif;
+	font-size: 21px;
+	color: #eb5635;
+	font-style: normal;
+}
+.slikslaider .sliksname p{
+	font-family: 'GothamLight', sans-serif;
+	font-size: 21px;	
+	font-style: italic;
+	color:#999;
+}
+
+
+/* Jobs */
+.jobs{margin-bottom: 70px;}
+.jobs .lable h2{
+	font-family: 'GothamBold', sans-serif;
+	font-size: 36px;
+}
+.jobs .spanone{
+	display: block;
+	border: 2px solid #eb5635;
+	height: 2px;
+	max-width: 50px;
+	margin: 15px 0px 40px 0px;
+}
+.jobs .text  p{
+	font-family: 'GothamLight', sans-serif;
+	font-size: 15px;
+	color:#999;
+}
+.jobs .text{
+	display: inline-block;
+	font-style: italic;
+}
+.jobs .lable{
+	display: inline-block;
+}
+.jobs .jobspost h3{
+	font-family: 'GothamBold', sans-serif;
+	font-size: 21px;
+	color:#4b4b4b;
+}
+.jobs .jobspost p{
+	font-family: 'GothamLight', sans-serif;
+	font-size: 13px;
+	color:#b1b1b1;
+}
+.jobs .jobspost .jobone{
+	padding: 35px 15px 20px 55px;
+	background-color: #fff;
+	margin-left: -15px;
+	min-height: 200px;
+	position: relative;
+}
+.jobs .jobspost .jobtwo{
+	padding: 35px 15px 20px 55px;
+	background-color: #fff;
+	margin-left: 15px;
+	min-height: 200px;
+	position: relative;
+}
+.jobs .jobspost a{
+	font-family: 'GothamBold', sans-serif;
+	display: block;
+	position: absolute;
+	bottom: 20px;
+	background-color: #fff;
+	border: 2px solid #eb5635;
+	color: #eb5635;
+	text-transform: uppercase;
+	border-radius: 30px;
+	padding: 5px 25px;
+	font-size: 12px;
+}
+.jobs .jobspost a:hover{
+	color: #fff; 
+	text-decoration: none;
+	background-color: #eb5635;
+	box-shadow: 0 0 0 2px #fff, 0 0 0 4px #eb5635;
+}
+
+
+
+
+
+/* Blog */
+.blog h2{
+	font-family: 'GothamBold', sans-serif;
+	font-size: 36px;
+	display: inline-block;
+	color:#222;
+}
+.blog > a {
+	font-family: 'GothamLight', sans-serif;
+	font-size: 15px;
+	position: absolute;
+	right: 0;
+	top: 15px;
+	color: #b1b1b1;	
+}
+.blog .posts {
+	background-color: #fff;
+	padding: 45px 10px 20px 20px;
+	height: 100%;
+}
+.blog .posts .one h3{
+	font-family: 'GothamBold', sans-serif;
+	font-size: 21px;
+ 	display: block;
+ 	color: #4b4b4b;
+}
+.blog .posts .one img{
+	display: block;
+	float: left;
+	padding-right: 20px;
+}
+.blog .posts .one p{
+	font-family: 'GothamLight', sans-serif;
+	font-size: 15px;
+	color: #b1b1b1;
+}
+.blog .posts .two{
+	margin-top: 30px;
+}
+.blog .posts .two h3{
+	font-family: 'GothamBold', sans-serif;
+	font-size: 21px;
+ 	display: block;
+ 	color: #4b4b4b;
+}
+.blog .posts .two img{
+	display: block;
+	float: left;
+	padding-right: 20px;
+}
+.blog .posts .two p{
+	font-family: 'GothamLight', sans-serif;
+	font-size: 15px;
+	color: #b1b1b1;
+}
+
+
+
+
+/* Press */
+.press h2{
+	font-family: 'GothamBold', sans-serif;
+	font-size: 36px;
+	display: inline-block;
+	color:#222;
+}
+.press .one {
+	background-color: #fff;
+	padding: 45px 10px 20px 30px;
+	height: 100%;
+}
+.press .one h3{
+	font-family: 'GothamBold', sans-serif;
+	font-size: 21px;
+ 	display: block;
+ 	color: #4b4b4b;
+}
+.press .one  p{
+	font-family: 'GothamLight', sans-serif;
+	font-size: 15px;
+	color: #b1b1b1;
+}
+.press .one a{
+	font-family: 'GothamLight', sans-serif;
+	font-size: 15px;
+	color: #eb5635;
+}
+
+
+
+
+
+/* tweets */
+.tweets h2{
+	font-family: 'GothamBold', sans-serif;
+	font-size: 36px;
+	display: inline-block;
+	color:#222;
+}
+.tweets .one {
+	background-color: #fff;
+	padding: 45px 10px 20px 30px;
+	height: 80%;
+}
+.tweets .one h3{
+	font-family: 'GothamBold', sans-serif;
+	font-size: 21px;
+ 	display: block;
+ 	color: #4b4b4b;
+}
+.tweets .one  p{
+	font-family: 'GothamLight', sans-serif;
+	font-size: 15px;
+	color: #b1b1b1;
+}
+.tweets .one a{
+	font-family: 'GothamLight', sans-serif;
+	font-size: 15px;
+	color: #59adeb;
+}
+.tweets .one span{
+	color: #59adeb;
+}
+.tweets img{
+	margin: 20px 0 0 15px;
+}
+.tweets > a{
+	position: absolute;
+	font-family: 'GothamLight', sans-serif;
+	font-size: 15px;
+	color: #59adeb;
+	transform: translate( 10%,55%);
+}
+
+/* footer */
+footer {
+	display: inline-block;
+	width: 100%;
+	height: 175px;
+	margin-top: 125px;
+	background: #fff center top no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+footer .navigationbot {
+	position: relative;
+	margin: 30px 0px 40px 5px;
+	width: 100%;
+}
+footer .navigationbot a {
+	font-family: 'GothamBold', sans-serif;
+	font-size: 15px;
+	margin: auto 30px;
+	color: #3c4248;
+}
+footer .navigationbot p {
+	position: absolute;
+	display: inline-block;
+	font-family: 'GothamBold', sans-serif;
+	font-size: 15px;
+	margin: auto 0px;
+	right: 0;
+	transform: translateY(60%);
+	color: #2e343b;
+}
+footer .footter{
+	position: relative;
+	width:100%;
+}
+footer .footter p{
+	display: inline-block;
+	font-family: 'GothamLight', sans-serif;
+	color: #2e343b;
+	font-size: 15px;
+}
+footer .footter .text-right{
+	position: absolute;	
+	display: inline-block;
+	font-family: 'GothamLight', sans-serif;
+	right: 0px;
+}
+
+
+
+
+/* кстрамалые девайсы («портретные телефоны», < 576px)*/
+@media (max-width: 575.98px) {
+	.menu , .menutwo{
+	display: none;
+	}
+	.toptext p{
+		text-shadow: 2px 2px 3px black;
+	}
+	.secondtext .first{
+		font-size: 30px;
+	}
+	.secondtext{
+		background-color: rgba(255, 255, 255, 0.3);
+	}
+	.dishonored{
+		position: relative;
+		transform: translateY(0%);
+	 	background: #fff;
+	 	margin: 30px;
+	}
+	.drift{
+		position: relative;
+		transform: translateY(0%);
+	 	background: #fff;
+	 	margin: 0px 10px;
+	} 
+	.battelfied{
+		position: absolute;
+		transform: translateY(0%);
+	}
+	.battelfied a{
+		margin-left: 10px;
+	}
+	.battelfied p{
+		margin: 20px 20px 40px 20px;
+	}
+	.workers {
+		margin-top: 30px;
+	}
+	.jobs .lable h2{
+		font-size: 30px;
+	}
+	.workers .lable h2{
+		font-size: 30px;
+	}
+	.jobs .jobspost .jobone{
+		margin: 15px;
+	}
+	.jobs .jobspost .jobtwo{
+		margin: 15px;
+	}
+	.blog {
+		height:100%;
+	}
+	.blog .posts{
+		padding-top: 20px;
+	}
+	.press {
+		height:100%;
+	}
+	.press .one{
+		padding-top: 20px;		
+	}
+	.tweets {
+		height:100%;
+	}
+	.tweets .one{
+		padding-top: 20px;		
+	}
+	footer .navigationbot a{
+		margin: auto 20px;
+	}
+	footer .navigationbot p {
+		display: none;
+	}
+}
+
+
+
+
+
+/*Малые девайсы («ландшафтные», >= 575px)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+	.menu , .menutwo{
+	display: none;
+	}
+	.toptext p{
+		text-shadow: 2px 2px 3px black;
+	}
+	.secondtext .first{
+		font-size: 30px;
+	}
+	.secondtext{
+		background-color: rgba(255, 255, 255, 0.3);
+	}
+	.dishonored{
+		position: relative;
+		transform: translateY(0%);
+	 	background: #fff;
+	 	margin: 30px;
+	}
+	.drift{
+		position: relative;
+		transform: translateY(0%);
+	 	background: #fff;
+	 	margin: 0px 10px;
+	} 
+	.battelfied{
+		position: absolute;
+		transform: translateY(0%);
+	}
+	.battelfied a{
+		margin-left: 10px;
+	}
+	.battelfied p{
+		margin: 20px 20px 40px 20px;
+	}
+	.workers {
+		margin-top: 30px;
+	}
+	.jobs .lable h2{
+		font-size: 30px;
+	}
+	.workers .lable h2{
+		font-size: 30px;
+	}
+	.jobs .jobspost .jobone{
+		margin: 15px;
+	}
+	.jobs .jobspost .jobtwo{
+		margin: 15px;
+	}
+	.blog {
+		height:100%;
+	}
+	.blog .posts{
+		padding-top: 20px;
+	}
+	.press {
+		height:100%;
+	}
+	.press .one{
+		padding-top: 20px;		
+	}
+	.tweets {
+		height:100%;
+	}
+	.tweets .one{
+		padding-top: 20px;		
+	}
+	footer .navigationbot a{
+		margin: auto 10px;
+	}
+	footer .navigationbot p {
+		display: none;
+	}
+}
+
+
+
+
+
+
+/*Средние девайсы («таблетки», >= 768px) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+	.navigation .logo{
+		margin: auto;
+		width:100%;
+	}
+	.navigation .logo img{
+		display: block;
+		margin: auto;
+	}
+	.navigation .email , .navigation .language{
+		display:block;
+		margin:auto;
+		width:50%;
+	}
+	.menutwo{height: 50px;}
+	.menu > ul li a{
+		margin: 0px 5px;		
+	}	
+	.menu{
+		padding: 10px;
+	}
+	.menu > a{
+		display: none;
+	}
+	.toptext p{
+		text-shadow: 2px 2px 3px black;
+	}
+	.dishonored{
+		position: relative;
+		transform: translateY(0%);
+	 	background: #fff;
+	 	margin: 10px;
+	}
+	.dishonored h2{
+		margin:10px 0px 10px 20px;
+	}
+	.dishonored .text {
+		margin:10px 0px 10px 20px;
+	}
+	.dishonored p{
+		font-size: 16px;
+		width: 100%;
+	}
+	.dishonored .info{
+		margin: 10px 0px 0px 20px;
+	}
+	.dishonored a{
+		margin: 10px 0px 0px 20px
+	}
+	.drift{
+		position: relative;
+		transform: translateY(0%);
+	 	background: #fff;
+	 	margin: 10px;
+	} 
+	.battelfied{
+		position: absolute;
+		transform: translateY(0%);
+		height: 250px
+	}
+	.battelfied h2{
+		margin: 20px;
+	}
+	.battelfied p{
+		margin: 20px 20px 40px 20px;
+	}
+	.workers {
+		margin-top: 30px;
+	}
+	.jobs .lable h2{
+		font-size: 30px;
+	}
+	.workers .lable h2{
+		font-size: 30px;
+	}
+	.jobs .jobspost .jobone{
+		margin: 15px;
+	}
+	.jobs .jobspost .jobtwo{
+		margin: 15px;
+	}
+	.blog {
+		height:100%;
+	}
+	.blog .posts{
+		padding-top: 20px;
+	}
+	.press {
+		height:100%;
+	}
+	.press .one{
+		padding-top: 20px;		
+	}
+	.tweets {
+		height:100%;
+	}
+	.tweets .one{
+		padding-top: 20px;		
+	}
+	footer .navigationbot a{
+		margin: auto 10px;
+	}
+	footer .navigationbot p {
+		display: none;
+	}
+}
+
+
+
+
+
+
+
+
+/*Большие девайсы (большие десктопы, >= 992px)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+	.navigation .logo{
+		margin: 20px 20px 20px 20px;
+	}
+	.menu > ul li a{
+		margin: 25px 15px 17px 0px;	
+	}
+	.dishonored{
+		position: relative;
+		transform: translateY(0%);
+	 	background: #fff;
+	 	margin: 30px;
+	}
+	.drift{
+		position: relative;
+		transform: translateY(0%);
+	 	background: #fff;
+	 	margin: 30px;
+	} 
+	.battelfied{
+		position: absolute;
+		transform: translateY(0%);
+		height: 300px
+	}
+	.battelfied p{
+		margin: 40px 40px 45px 40px;
+	}
+	.workers {
+		margin-top: 30px;
+	}
+	.jobs .jobspost .jobone{
+		margin: 15px;
+	}
+	.jobs .jobspost .jobtwo{
+		margin: 15px;
+	}
+	.blog {
+		height:100%;
+	}
+	.blog .posts{
+		padding-top: 20px;
+	}
+	.press {
+		height:100%;
+	}
+	.press .one{
+		padding-top: 20px;		
+	}
+	.tweets {
+		height:100%;
+	}
+	.tweets .one{
+		padding-top: 20px;		
+	}
+	footer .navigationbot a{
+		margin: auto 15px;
+	}
+}
+
+
+
+/*Большие девайсы (большие десктопы, >= 1200px)*/
+@media (min-width: 1200px) {
+	.drift{
+		margin-left: 15px !important;
+	}
+	.blog {
+		height:340px;
+	}
+	.press {
+		height:340px;
+	}
+	.tweets {
+		height:340px;
+	}
+}
+
