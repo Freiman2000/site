@@ -1,0 +1,242 @@
+html{
+	font-family: 'Open Sans', sans-serif;
+}
+/* Главный экран */
+.mainbg {
+	display:block;
+	width: 100%;
+	height: 800px;
+	background: black url(../img/mainbg.jpg) center top no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+	padding-top: 65px;	
+}
+.logo{
+	margin-bottom:30px;
+}
+.logo img{
+	display:block;
+	margin:auto;
+}
+.lable h1{
+	color: #fff;
+	text-align: center;
+	text-transform: uppercase;
+	font-style: 49px;
+	font-weight: 400px;
+	line-height: 62px;
+}
+
+/* Форма связи */
+.callto {
+	margin-top: 60px;
+}
+.callto .form{
+	background: #fff;
+	text-align: center;
+	height: 350px;
+	width: 340px;
+	margin: auto;
+	border: 2px solid #e5e5e5;
+}
+.callto .form input{
+	margin: 30px 30px 20px 30px;
+	width: 260px;
+	height: 38px;
+	padding: 16px; 
+	border: 2px solid #938e8e; 
+	border-radius: 4px;
+}
+.callto .form input:focus{
+	outline: none;
+}
+.callto .form p{
+	padding: 27px;
+	color: #938e8e; 
+	margin: 0px;
+}
+.callto .form button{
+	background: #227dd3;
+	color: #fff;
+	border: none;
+	border-radius: 4px;
+	width: 190px;
+	height: 45px;
+	font-size: 25px;
+	text-transform: uppercase;
+}
+.callto .form button:hover{
+	background: #1a5fa1;
+}
+
+/* Документы и фото */
+.doc{
+	padding-top: 165px; 
+}
+.doc img{
+	display: block;
+	position: relative;
+	float: left;
+	padding-right: 30px; 
+	margin-bottom: 100px;
+}
+
+/* Секция с текстом */
+.section{
+	display: inline-block;
+	width: 100%;
+	background: #5fc18b url(../img/textbg.jpg) center no-repeat;
+	height: 1350px;
+}
+.section h3{
+	color: #fff;
+	font-size: 40px;
+	font-weight: 400;
+}
+.section p{
+	text-align: left;
+	color: #fff;
+	font-size: 14px;
+}
+.section .section-first{
+	display: inline-block;
+	padding-top: 85px;
+	width: 100%;
+}
+.section .section-first .top{
+	z-index: 10;
+	position: relative;
+	text-align: center;
+}
+.section .section-first .top p{
+	margin-bottom: 50px;
+}
+.section .section-first .top h3{
+	margin: 40px;
+}
+.section .bgcolor {
+	z-index: 5;
+	display: inline-block;
+	position: absolute;
+	transform: translateY(-30%);
+	width: 100%;
+}
+
+.section-second {
+	padding-top: 250px;
+}
+.section-second .img-sec2{
+	display: inline-block;
+	position: relative;
+	top: 0px;
+	float: left;
+}
+.section-second .img-sec2 img{width: 80%;}
+.section-second .textheading {
+	display: inline-block;
+	color: #fff;
+}
+.section-second .textheading h3{
+	margin-bottom: 30px;
+}
+.section-second .textheading p{
+	margin-bottom: 20px;
+}
+.section-second .textheading button{
+	background-color: #44a36f;
+	border: 2px solid #fff;
+	border-radius: 5px;
+	padding: 5px 24px 5px 28px;
+	color: #fff; 
+	font-size: 28px;
+	margin-bottom: 130px;
+}
+.section-second .textheading button:hover{
+	border: 2px solid #e2e0e0;
+	color: #e2e0e0; 
+}
+
+/* Секция оставь свои данные */
+.maps {
+	display: inline-block;
+	width: 100%;
+	background: black url(../img/contactbg.jpg) center no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+	padding-top: 160px;
+}
+.maps .form{
+	display: block;
+	border: 2px solid #fff;
+	background: #fff;
+	text-align: center;
+	padding-top: 110px;
+	border-radius: 50%;
+	height: 430px;
+	width: 430px;
+	opacity: 0.8;
+	margin: auto;
+	margin-bottom: 45px;
+}
+.maps .form input{
+	display: block;
+	margin: 15px auto;
+	height: 30px;
+	width: 270px;
+	border:2px solid #d8d8d8;
+	border-radius: 1px;
+	padding-left: 15px; 
+}
+.maps .form input:focus{
+	outline: none;
+}
+.maps .form textarea{
+	display: block;
+	margin: auto;
+	margin-bottom: 30px;
+	width: 270px;
+	height: 90px;
+	border:2px solid #d8d8d8;
+	border-radius: 1px;
+	padding-left: 15px; 
+}
+.maps .form textarea:focus{
+	outline: none;
+}
+.maps .form button{
+	background: none;
+	border: none;
+}
+
+/* footer */
+footer{
+	display: block;
+	height: 60px;
+	background: #43a06d;
+	text-align: center;
+	padding-top: 20px;
+	color: #fff;
+}
+
+
+/* media запросы */
+
+/*Экстрабольшие девайсы (большие десктопы, >= 1200px)*/
+@media (min-width: 1200px) {
+.section-second .image-sec {
+	position: relative;
+	z-index: 10;
+	display: inline-block;
+	transform: translateX(+9%);
+}
+}
+
+@media (min-width: 1800px) {
+.section-second .image-sec {
+	position: relative;
+	z-index: 10;
+	display: inline-block;
+	transform: translateX(30%);
+}
+}
+
