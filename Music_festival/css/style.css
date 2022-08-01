@@ -1,0 +1,444 @@
+html{
+	font-family: 'Lato', sans-serif;
+}
+body{
+	background-color: #030203; 
+	background: #030203;
+}
+
+
+
+
+/* Главное окно */
+.mainbg {
+	display:block;
+	width: 100%;
+	height: 980px;
+	background: black url(../img/main-bg.jpg) center top no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+	padding-top: 30px;	
+}
+.mainbg .navigation .menu a{
+	font-weight: 900;
+	color: #fff;
+	font-size: 18px;
+	text-transform: uppercase;
+	margin-right: 50px;
+	-webkit-transition: 0.4s ease-in-out ;
+	-o-transition: 0.4s ease-in-out ;
+	transition: 0.4s ease-in-out ;
+}
+.mainbg .navigation .menu a:hover {
+	color: #f87d6b;
+	text-decoration: none;
+}	
+.mainbg .navigation .menu{
+	display: inline-block;
+}
+.mainbg .navigation{
+	position: relative;
+}
+.mainbg .navigation .social{
+	display: inline-block;
+	position: absolute;
+	right: 0px;	
+}
+.mainbg .navigation .social a{
+	margin-left: 20px;	
+}
+.mainbg .main-text {
+	margin-top: 250px;
+}
+.mainbg .main-text p{
+	font-weight: 400;
+	color: #fff;
+	font-size: 28px;
+	text-transform: uppercase;
+	margin-bottom: 0px;
+}
+.mainbg .main-text h2{
+	font-weight: 900;
+	background: -webkit-linear-gradient(left, #aa3a67 8%, #f87d6b 30%);
+	background: -o-linear-gradient(left, #aa3a67 8%, #f87d6b 30%);
+	background: linear-gradient(right, #aa3a67 8%, #f87d6b 30%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	color: #fff;
+	font-size: 80px;
+	text-transform: uppercase;	
+	line-height: 70px;
+	margin-bottom: 0px;
+
+}
+.mainbg .main-text a{
+	background: url('img/nobg.png') repeat;
+	border: 5px solid transparent;
+	border-image: linear-gradient(150deg,#aa3a67 8%,#f87d6b);
+	border-image-slice: 1;
+	border-radius: 10px;
+	padding: 25px 60px;
+	color: #fff;
+	font-weight: 900;
+	font-size: 24px;
+	text-transform: uppercase;
+}
+.mainbg .main-text a:hover{
+	background: -webkit-linear-gradient(left, #aa3a67, #f87d6b);
+	background: -o-linear-gradient(left, #aa3a67, #f87d6b);
+	background: linear-gradient(right, #aa3a67, #f87d6b);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+.mainbg .main-text .two{
+	margin-bottom: 90px;
+}
+
+
+
+
+/* Ingressos */
+.ingressos h2{
+	font-weight: 900;
+	font-size: 38px;
+	text-transform: uppercase;
+	color: #fff;
+	text-align: center; 
+	margin: 60px 0px;
+}
+.ingressos .left{
+	background: black url(../img/left.jpg) center top no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+	margin-right: 30px;
+}
+.ingressos .right{
+	background: black url(../img/right.jpg) center top no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+.ingressos .ticket{
+	width: 350px;
+	height: 580px;
+	display: inline-block;
+	border-radius: 10px;
+	color: #fff;
+}
+.ingressos .tik{
+	text-align:center;
+}
+.ingressos .ticket h3{
+	font-weight: 400;
+	font-size: 30px;
+	text-transform: uppercase;
+	margin: 30px 0px 210px 0px;
+}
+.ingressos .ticket strong{
+	font-weight: 900;
+	font-size: 30px;
+	display: block;
+}
+.ingressos .ticket strong span{
+	font-size: 60px;
+}
+.ingressos .ticket a{
+	display: block;
+	width: 300px;
+	background: url('img/nobg.png') repeat;
+	border: 3px solid #fff;
+	padding: 15px 45px;
+	margin: auto;
+	color: #fff;
+	font-weight: 900;
+	font-size: 24px;
+	text-transform: uppercase;
+	margin: 25px;
+}
+.ingressos .ticket a:hover{
+	background: -webkit-linear-gradient(left, #aa3a67, #f87d6b);
+	background: -o-linear-gradient(left, #aa3a67, #f87d6b);
+	background: linear-gradient(right, #aa3a67, #f87d6b);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+.ingressos .ticket .one {
+	display: inline-block;
+	font-weight: 400;
+	font-size: 16px;
+}
+
+.ingressos .ticket .two {
+	font-weight: 400;
+	font-size: 12px;
+	width: 82%;
+	margin: auto;
+}
+.ingressos > p{
+	color: #fff;
+	text-align: center;
+	font-size: 22px;
+	font-weight: 400;
+	margin: 60px auto;
+}
+
+
+
+
+/*Trajetória*/
+.trajetoria{
+	display:block;
+	width: 100%;
+	height: 985px;
+	background: black url(../img/Trajetoria.jpg) center top no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+	padding-top: 160px;
+	color: #fff;
+}
+.trajetoria .text h3{
+	font-weight: 900;
+	font-size: 38px;
+	text-transform: uppercase;
+	margin-bottom: 100px;
+}
+.trajetoria .text p{
+	font-weight: 400;
+	font-size: 20px;
+	margin: 0px 0px 50px 30px;
+}
+.trajetoria .text .timeline .years{
+	display: inline-block;
+	float: left;
+}
+.trajetoria .text .timeline .years span{
+	display: block;
+	font-weight: 400;
+	font-size: 32px;
+	margin-bottom: 80px;
+}
+.trajetoria .text .timeline img{
+	float: left;
+	display: inline-block;
+    vertical-align: baseline;
+    margin: 15px 50px 0px 30px;
+}
+.trajetoria .text .timeline .timetext{
+	display: inline-block;
+	width: 385px;
+}
+.trajetoria .text .timeline .timetext p{
+	font-weight: 400;
+	font-size: 22px;
+	margin: 0 0 20px 0;
+
+}
+
+
+
+
+/*Galeria*/
+.galeria{
+	height: 1400px;
+	color: #fff;
+	text-align: center;
+}
+.galeria img{
+	vertical-align: baseline;
+}
+.galeria h3{
+	text-align: center;
+	font-weight: 900;
+	font-size: 38px;
+	margin: 55px auto;
+	text-transform: uppercase;
+}
+.galeria a{
+	text-align:center;
+	display: block;
+	width: 300px;
+	background: url('img/nobg.png') repeat;
+	border: 3px solid #fff;
+	padding: 15px 45px;
+	margin: auto;
+	color: #fff;
+	font-weight: 900;
+	font-size: 24px;
+	text-transform: uppercase;
+	margin: 55px auto;
+}
+.galeria a:hover{
+	background: -webkit-linear-gradient(left, #aa3a67, #f87d6b);
+	background: -o-linear-gradient(left, #aa3a67, #f87d6b);
+	background: linear-gradient(right, #aa3a67, #f87d6b);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+
+
+
+/*maps*/
+.maps{
+	display: block;
+	width: 100%;
+	height: 980px;
+	background: black url(../img/maps-bg.jpg) center top no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+	padding-top: 680px;
+}
+.maps .show{
+	background: rgba(255,255,255,0.75);
+	padding: 40px 70px 35px 70px;
+	margin: 0px 65px;
+}
+.maps .show h3{
+	display: block;
+	color: #000;
+	font-weight: 900;
+	font-size: 38px;
+	text-transform: uppercase;
+	text-align: center;
+	margin-bottom: 20px;
+}
+.maps .show p{
+	color: #000;
+	font-weight: 400;
+	font-size: 22px;
+	text-align: center;
+}
+.maps .show .two{
+	font-size: 18px;
+	color: #424242;
+}
+
+
+
+
+/* footer */
+footer{
+	display: block;
+	width: 100%;
+	height: 190px;
+	background: black url(../img/footer-bg.jpg) center top no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+	padding-top: 60px;
+	color: #fff;
+}
+.fr{
+	position: relative;
+}
+footer h3{
+	font-weight: 900;
+	font-size: 29px;
+	text-transform: uppercase;
+	margin-bottom: 10px;
+}
+footer p{
+	font-weight: 400;
+	font-size: 14px;
+	text-transform: uppercase;
+}
+footer .social{
+	display: inline-block;
+	position: absolute;
+	right: 0px;	
+	top: 0px;
+}
+footer .social a{
+	margin-left: 20px;	
+}
+
+
+
+/* Малые девайсы («ландшафтные», >= 575px)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+	.mainbg .navigation .social{
+		position: relative;
+		margin-top: 20px;
+	}
+	.mainbg .navigation .social a{
+		margin: 20px 20px 0px 0px;
+	}
+	.mainbg .navigation .menu a{
+		margin-right: 25px;
+	}
+	.ingressos .ticket {
+    	width: 340px;
+	}	
+	.ingressos .left {
+		margin-right: 0px;
+		margin-bottom: 20px;
+	}
+	.ingressos .ticket a{
+		margin: 20px;
+	}
+	.ingressos .ticket .two{
+		   width: 85%;
+	}
+	.galeria img{
+		width:100px;
+	}
+	.galeria{
+		height: 500px;
+	}
+	.maps{
+		padding-top: 600px;
+	}
+	.maps .show{
+		padding: 20px 30px 10px 30px;
+		margin: 0px;
+	}
+	.trajetoria{
+		padding-top: 100px;
+	}
+	.trajetoria .text .timeline .timetext{
+		width:360px;
+	}
+}
+
+/* Средние девайсы («таблетки», >= 768px) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+	.mainbg .navigation .menu a{
+		margin-right: 25px;
+	}
+	.ingressos .ticket {
+    	width: 340px;
+	}	
+	.ingressos .left {
+		margin-right: 5px;
+	}
+	.ingressos .ticket a{
+		margin: 20px;
+	}
+	.ingressos .ticket .two{
+		   width: 85%;
+	}
+	.galeria img{
+		width:200px;
+	}
+	.galeria{
+		height: 900px;
+	}
+	.maps .show{
+		padding: 20px 30px 10px 30px;
+		margin: 0px;
+	}
+	.trajetoria{
+		padding-top: 100px;
+	}
+}
+
+/* Большие девайсы (большие десктопы, >= 992px)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+	.galeria{
+		height: 2200px;
+	}
+	.maps{
+		height: 1100px;
+	}
+}
+
+/* Большие девайсы (большие десктопы, >= 1200px)*/
+@media (min-width: 1200px) { ... }
